@@ -1,0 +1,27 @@
+.heading-flex h2{
+    font-size: 50px;
+    line-height: 80px;
+    line-height: 100%;
+}
+.flex-card{
+    margin: 92px 18px 10px 18px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.card-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.info img{
+    width: 50px;
+    height: 50px;
+}
