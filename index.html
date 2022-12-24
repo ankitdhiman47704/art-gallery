@@ -15,7 +15,7 @@
 
 <body>
     <div class="main-container">
-        <header>
+        <header id="header">
             <nav class="navbar fixed-top align-content-center navbar-expand-md bg-dark">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
@@ -30,13 +30,13 @@
                         <form class="d-flex" role="search">
                             <ul class="navbar-nav p-2 me-auto mb-2 mb-lg-0">
                                 <li class="nav-item  px-3">
-                                    <button type="button" class="btn px-md-4  btn-outline-light">Home</button>
+                                    <button type="button" class="btn px-md-4  btn-outline-light nav-button"><a href="#">Home</a></button>
                                 </li>
                                 <li class="nav-item px-3">
-                                    <button type="button" class="btn btn-outline-light">Gallery</button>
+                                    <button type="button" class="btn btn-outline-light nav-button"><a href="#main">Gallery</a></button>
                                 </li>
                                 <li class="nav-item px-3">
-                                    <button type="button" class="btn btn-warning">Contact us</button>
+                                    <button  type="button" class="btn btn-warning nav-button"><a href="#footer">Contact us</a></button>
                                 </li>
                             </ul>
                         </form>
@@ -44,7 +44,7 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main id="main">
             <div class="flex-card">
                 <div class="heading-flex">
                     <h2>Flex Cards</h2>
@@ -361,7 +361,7 @@
                 </div>
             </div>
         </main>
-        <footer class="bg-dark mx-auto py-5">
+        <footer id="footer" class="bg-dark mx-auto py-5">
             <div class="card  mx-auto" style="max-width: 840px;min-width: 500px; max-height: fit-content;">
                 <div class="row g-0">
                     <div class=" col-lg-4 col-md-3">
